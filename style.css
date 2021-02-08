@@ -56,15 +56,20 @@ section {
       align-items: center;
       justify-content: space-between;
       flex-wrap: wrap;
-      flex-direction: row-reverse;
   }
 
   #brown {
       align-self: flex-start;
+      order: 1;
   }
 
   #orange {
-      align-self: flex-end;
+      order: 2;
+  }
+
+  #purple {
+    order: 3;
+    align-self: flex-end;
   }
 
   
